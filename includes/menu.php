@@ -27,5 +27,11 @@
                         <li><a href="liste_session_ref.php">Liste_Session_Référentiel </a></li>
                     </ul>
                 </li>
+                <li ><a href="#">Menus</a>
+                    <ul>
+                        <li><a href="Form_Menu.php">Ajouter</a></li>
+                        <li><a href="Listplat.php">Lister </a></li>
+                    </ul>
+                </li>
          </ul>
     </header>

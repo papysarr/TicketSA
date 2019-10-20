@@ -7,8 +7,8 @@ if(!empty($_POST['nomplat'])){
    //3-Traitement => Connexion dans une BD
    include_once('./db.php');
    $query = $pdo->query("SELECT * FROM `Plat` ");
-   $users= $query->fetchAll();
-   $req =$pdo-> exec("INSERT INTO `Plat` (nomplat)  VALUES ('$nom')");
+   $Plats= $query->fetchAll();
+   $req =$pdo-> exec("INSERT INTO `Plat` (nomplat)  VALUES ('$nomplat')");
    if($req){
     header("Location: ../views/Listplat.php");
    }else{

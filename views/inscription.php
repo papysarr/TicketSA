@@ -1,61 +1,5 @@
 <!doctype html>
 <html lang="en">
-<<<<<<< HEAD
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <title>Formulaire inscription</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info float-right">
-   
-    <div class="collapse navbar-collapse col-sm-2" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Référentiel
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="formsession.php">Nouveau</a>
-                <a class="dropdown-item" href="liste_session.php">Liste</a>
-            </div>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Utilisateur
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="formutilisateur.php">Nouveau</a>
-            <a class="dropdown-item" href="liste_utilisateur.php">Liste</a>
-            </div>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Session
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="ajoutref.php">Nouveau</a>
-            <a class="dropdown-item" href="listref.php">Liste</a>
-            <a class="dropdown-item" href="session_ref.php">Session_Référentiel</a>
-            <a class="dropdown-item" href="liste_session_ref.php">Liste_Session_Référentiel</a>
-            </div>
-        </li>
-        </ul>
-
-    </div>
-    </nav>
-    <div class="col-4 ">
-       <img src="../public/img/sa logo.png" alt=""/>
-       <h3 style="margin-left: 410px";>Inscription</h3>
-       <form>
-            <div class="form-group row">
-                <label for="inputPassword" class="col-sm-2 col-form-label">Nom</label>
-                <div class="col-sm-10">
-                <input type="text" class="form-control form-control-sm" id="inputPassword" placeholder="Nom">
-                </div>
-=======
   <head>
     <title>
     
@@ -71,15 +15,10 @@
      <div class="container-fluid">
        <!-- menu -->
           <div class="row bg-primary">
-<<<<<<< HEAD
             <div class="col-3 text-center">
                 <img src="../public/img/as.jpg" class="tiket-img-fluid  rounded-circle" alt="">
                 <p class="text-secondary font-weight-bold">Astou Ndiaye</p> 
-=======
-            <div class="col-3">
-                <img src="../public/img/as.jpg" class="tiket-img-fluid  rounded-circle " alt="">
->>>>>>> face95c4c83d23acc9ae21972ad84d6ecb6ebec6
->>>>>>> 49e419cfaaec3db48c243d7f84d79570add7e5df
+           
             </div>
             <div class="col">
               <nav class="navbar navbar-expand-sm navbar-dark float-right">
@@ -117,6 +56,14 @@
                         </ul>
                     </div>
                 </nav>
+                <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.0/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+  $('h1').mouseover(function() {
+    $(this).dropdown('toggle')
+  })
+</script>
             
             </div>
           </div>
@@ -193,7 +140,7 @@
           </div>
         <!-- Footer -->
           <div class="row bg-primary  row-footer">
-             csdcs
+            
           </div>
       </div>
 

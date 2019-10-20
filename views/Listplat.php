@@ -29,23 +29,12 @@
           <thead>
                <tr>
                 <th>Nom des Plats</th>
-                
-                <th>Actions</th>
-                </tr>
           </thead> 
           <tbody>
              <?php foreach ($Plats as $key => $Plat) { ?>
                     <tr>
                        <td><?php echo $Plat['nomplat'];?></td>
-                       
-                      <td>
-                      <a  href="./modif.php?edit=<?php echo $Plat['id'];?>"> <i class="material-icons">border_color</i></a> 
-                     
-                      <a href="../controler/controllistref.php?del=<?php echo $Plat['id'];?>"  onclick="return confirm('Voulez vous vraiment supprimer?')"><i class="material-icons">delete</i></a>
-
-                     
-                      </td>
-                    </tr>
+                     </tr>
              <?php } ?>
          <tbody>
         </table>
