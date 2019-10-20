@@ -12,7 +12,22 @@
 <body>
 <?php include_once('../includes/menu.php'); ?>
 <?php  include_once('../controler/db.php'); ?>
-
-</ul>
+        <form action="../controler/ControlajoutMenu.php" method="post">
+          <div>
+              <?php 
+                  if(isset($_GET['erreur'])){
+                      echo $_GET['erreur'];
+                  }    
+              ?>
+          </div>
+          <div class="input-form-session-m-b">
+            <label for="">Plat</label>
+            <input type style="padding-bottom: 0px;height: 18px; margin: 18px;" type="text" name="nomplat" placeholder="">
+          </div>
+          <div class="input-form-session-m-b">
+            <button type="submit">Créer</button>
+          </div>
+         
+        </form>
 </body>
 </html>
